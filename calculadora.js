@@ -1,28 +1,27 @@
 function pepito(cadena){
-
-    if(cadena[0] == "/")
-    {
+    if(cadena[0] == "/") {
         Delimitador = cadena[2]
         cadena = cadena.slice(4)
         SplitedCadena = cadena.split(Delimitador)
     }
-    else
+    else{
         SplitedCadena = cadena.split(/,|\n/)
+    }
 
-    if(cadena[0] == "-")
-        return "No se permiten negativos"
+    if(cadena[0] == "-"){
+        return "No se permiten negativos " + cadena[0] + cadena[1]
+    }
 
     let suma = 0
-    if(cadena == "")
+    if(cadena == ""){
         return 0;
+    }
 
-    for( const s of SplitedCadena)
-    {
+    for( const s of SplitedCadena) {
         const Numero = Number(s)
         suma = suma + Numero
     }
     return suma
-
 }
 
 module.exports = {

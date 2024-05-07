@@ -1,5 +1,5 @@
 ## Integrantes
-Lautaro Teta Musa - lautarotetamusa@gmail.com 
+Lautaro Teta Musa - lautarotetamusa@gmail.com \
 Rodrigo Marí - rorro2001@gmail.com
 
 ## Lenguaje
